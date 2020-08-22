@@ -1,0 +1,27 @@
+{
+  "name": "credence-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha --exit",
+    "coverage": "nyc --reporter=text --reporter=lcov  npm run test"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^5.1.1"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mocha": "^8.1.1",
+    "mongoose": "^5.10.0",
+    "morgan": "~1.9.1",
+    "nyc": "^15.1.0",
+    "pug": "2.0.0-beta11"
+  }
+}

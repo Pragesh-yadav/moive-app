@@ -1,0 +1,5 @@
+{
+    "dbConURL": "mongodb://localhost:27017/credence",
+    "PORT": "8080",
+    "db_name": "credence"
+}
